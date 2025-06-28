@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 to-blue-200 p-4">
       <div className="bg-white rounded-xl shadow-lg p-8 max-w-xl w-full flex flex-col items-center">
-        <Image width={100} height={100} src="/logo.jpg" alt="Logo guitare" className="w-1/4 h-1/4 mb-4 rounded-full" />
+        <Image width={150} height={150} src="/logo.jpg" alt="Logo guitare" className=" mb-4 h-fit rounded-full" />
         <h1 className="text-4xl font-bold text-blue-800 mb-2">One Song, One Weak Guitar</h1>
         <p className="text-gray-700 text-center mb-6">
           Apprenez la guitare facilement, étape par étape.<br />
