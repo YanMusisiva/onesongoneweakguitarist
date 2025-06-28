@@ -70,7 +70,7 @@ export default function Signup() {
             onChange={e => setPassword(e.target.value)}
           />
           <div className="flex space-x-4 items-center">
-            <label>
+            <label className='text-blue-800'>
               <input
                 className='text-blue-600'   
                 type="radio"
@@ -81,9 +81,9 @@ export default function Signup() {
               />{' '}
               Learner
             </label>
-            <label>
+            <label className='text-blue-800'>
               <input
-              className='text-blue-600'
+              
                 type="radio"
                 name="role"
                 value="guitarist"
