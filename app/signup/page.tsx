@@ -48,7 +48,7 @@ export default function Signup() {
           <input
             type="text"
             placeholder="Nom complet"
-            className="border rounded px-4 py-2 w-full"
+            className="border rounded px-4 py-2 w-full text-black"
             required
             value={name}
             onChange={e => setName(e.target.value)}
@@ -56,7 +56,7 @@ export default function Signup() {
           <input
             type="email"
             placeholder="Adresse e-mail"
-            className="border rounded px-4 py-2 w-full"
+            className="border rounded px-4 py-2 w-full text-black"
             required
             value={email}
             onChange={e => setEmail(e.target.value)}
@@ -64,7 +64,7 @@ export default function Signup() {
           <input
             type="password"
             placeholder="Mot de passe"
-            className="border rounded px-4 py-2 w-full"
+            className="border rounded px-4 py-2 w-full text-black"
             required
             value={password}
             onChange={e => setPassword(e.target.value)}

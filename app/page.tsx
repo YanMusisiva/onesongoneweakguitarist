@@ -13,10 +13,10 @@ export default function Home() {
           Rejoignez une communauté de passionnés et progressez à votre rythme.
         </p>
         <div className="flex space-x-4 w-full justify-center">
-          <Link href="/login" className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-blue-700 transition">
+          <Link href="/login" className="bg-blue-600 text-white px-3 py-1 lg:py-2 lg:px-6 rounded-full font-semibold shadow hover:bg-blue-700 transition">
             Se connecter
           </Link>
-          <Link href="/signup" className="border border-blue-600 text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transition">
+          <Link href="/signup" className="border border-blue-600 text-blue-600 px-3 py-1 lg:py-2 lg:px-6 rounded-full font-semibold hover:bg-blue-50 transition">
             S&apos;inscrire
           </Link>
         </div>
