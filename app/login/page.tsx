@@ -70,6 +70,7 @@ export default function Login() {
           <div className="flex space-x-4 items-center">
             <label>
               <input
+              className='text-blue-600'
                 type="radio"
                 name="role"
                 value="learner"
@@ -80,6 +81,7 @@ export default function Login() {
             </label>
             <label>
               <input
+              className='text-blue-600'
                 type="radio"
                 name="role"
                 value="guitarist"
