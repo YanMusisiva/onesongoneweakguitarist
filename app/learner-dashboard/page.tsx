@@ -2,8 +2,8 @@
 
 export default function LearnerDashboard() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-yellow-100 to-yellow-300 p-4">
-      <div className="bg-white rounded-lg shadow-2xl p-8 max-w-5xl w-full border border-yellow-300">
+    <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-blue-300 p-4">
+      <div className="bg-white rounded-lg shadow-2xl p-8 max-w-5xl w-full border border-blue-300">
         <h1 className="text-4xl font-extrabold text-yellow-700 mb-8 text-center tracking-tight">
           Bienvenue sur votre espace d&apos;apprentissage 🎸
         </h1>
@@ -76,7 +76,7 @@ export default function LearnerDashboard() {
           </div>
           <button
             className="bg-yellow-500 text-white px-8 py-3 rounded-full font-semibold shadow hover:bg-yellow-600 transition mb-2"
-            onClick={() => window.location.href = 'mailto:contact@onesong1weakguitar.com?subject=Demande%20de%20formation%20guitare'}
+            onClick={() => window.location.href = 'mailto:johnasiteh@gmail.com?subject=Demande%20de%20formation%20guitare'}
           >
             Demander une formation
           </button>

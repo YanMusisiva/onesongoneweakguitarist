@@ -33,7 +33,7 @@ export default function GuitaristDashboard() {
           <h2 className="text-xl font-semibold text-blue-700 mb-2">Envoyer votre travail</h2>
           <button
             className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold shadow hover:bg-blue-700 transition mb-2"
-            onClick={() => window.location.href = 'mailto:contact@onesong1weakguitar.com'}
+            onClick={() => window.location.href = 'mailto:johnasiteh@gmail.com'}
           >
             Envoyer mon travail par mail
           </button>
