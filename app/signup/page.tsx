@@ -36,7 +36,7 @@ export default function Signup() {
 
       router.push('/login');
     } catch (err) {
-      setError("Erreur serveur");
+      setError("Erreur serveur" + (err instanceof Error ? `: ${err.message}` : ''));
     }
   };
 
@@ -92,7 +92,7 @@ export default function Signup() {
             </label>
           </div>
           <button type="submit" className="bg-blue-600 text-white px-6 py-2 rounded-full font-semibold shadow hover:bg-blue-700 transition">
-            S'inscrire
+            S&apos;inscrire
           </button>
           {error && <div className="text-red-500 text-sm">{error}</div>}
         </form>

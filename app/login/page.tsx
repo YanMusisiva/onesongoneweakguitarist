@@ -42,7 +42,7 @@ export default function Login() {
         router.push('/learner-dashboard');
       }
     } catch (err) {
-      setError('Erreur serveur');
+      setError('Erreur serveur' + (err instanceof Error ? `: ${err.message}` : ''));
     }
   };
 
@@ -97,7 +97,7 @@ export default function Login() {
         <p className="mt-4 text-sm text-gray-600">
           Pas encore de compte ?{' '}
           <Link href="/signup" className="text-blue-600 hover:underline">
-            S'inscrire
+            S&apos;inscrire
           </Link>
         </p>
       </div>
